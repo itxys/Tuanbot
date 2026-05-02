@@ -27,25 +27,25 @@
 
 ### Current release
 
-- Version: `2026.4.27`
-- Release notes: [release-notes-2026.4.27.md](./release-notes-2026.4.27.md)
+- Version: `2026.5.2`
+- Release notes: [release-notes-2026.5.2.md](./release-notes-2026.5.2.md)
 
 ### Download assets
 
 | Platform | Asset |
 | --- | --- |
-| Windows x64 | `tuanbot_win_2026.4.27.exe` |
+| Windows x64 | `tuanbot_win_2026.5.2.exe` |
 | Windows direct latest link | `tuanbot_win_latest.exe` |
-| macOS Apple Silicon | `Tuanbot-2026.4.27-mac-arm64.dmg` |
-| macOS Intel | `Tuanbot-2026.4.27-mac-x64.dmg` |
-| Linux arm64 | `Tuanbot-2026.4.27-arm64.AppImage` |
+| macOS Apple Silicon | `Tuanbot-2026.5.2-mac-arm64.dmg` |
+| macOS Intel | `Tuanbot-2026.5.2-mac-x64.dmg` |
+| Linux arm64 | `Tuanbot-2026.5.2-arm64.AppImage` |
 
 ### Auto-update metadata
 
 | Platform | Metadata |
 | --- | --- |
-| Windows | `latest.yml`, `tuanbot_win_2026.4.27.exe.blockmap` |
-| macOS | `latest-mac.yml`, `Tuanbot-2026.4.27-mac-arm64.dmg.blockmap`, `Tuanbot-2026.4.27-mac-x64.dmg.blockmap` |
+| Windows | `latest.yml`, `tuanbot_win_2026.5.2.exe.blockmap` |
+| macOS | `latest-mac.yml`, `Tuanbot-2026.5.2-mac-arm64.dmg.blockmap`, `Tuanbot-2026.5.2-mac-x64.dmg.blockmap` |
 | Linux | `latest-linux-arm64.yml` |
 
 ---
@@ -62,10 +62,10 @@
 当前提供 Windows、macOS、Linux 安装包：
 
 - Windows（稳定直链）：`tuanbot_win_latest.exe`
-- Windows（版本化安装包）：`tuanbot_win_2026.4.27.exe`
-- macOS Apple Silicon：`Tuanbot-2026.4.27-mac-arm64.dmg`
-- macOS Intel：`Tuanbot-2026.4.27-mac-x64.dmg`
-- Linux arm64：`Tuanbot-2026.4.27-arm64.AppImage`
+- Windows（版本化安装包）：`tuanbot_win_2026.5.2.exe`
+- macOS Apple Silicon：`Tuanbot-2026.5.2-mac-arm64.dmg`
+- macOS Intel：`Tuanbot-2026.5.2-mac-x64.dmg`
+- Linux arm64：`Tuanbot-2026.5.2-arm64.AppImage`
 
 点击页面上方按钮即可下载最新版本。
 
@@ -102,10 +102,10 @@ This is the **release-only repository** for Tuanbot. It hosts installers and aut
 Windows, macOS, and Linux installers are available:
 
 - Windows (stable direct link): `tuanbot_win_latest.exe`
-- Windows (versioned installer): `tuanbot_win_2026.4.27.exe`
-- macOS Apple Silicon: `Tuanbot-2026.4.27-mac-arm64.dmg`
-- macOS Intel: `Tuanbot-2026.4.27-mac-x64.dmg`
-- Linux arm64: `Tuanbot-2026.4.27-arm64.AppImage`
+- Windows (versioned installer): `tuanbot_win_2026.5.2.exe`
+- macOS Apple Silicon: `Tuanbot-2026.5.2-mac-arm64.dmg`
+- macOS Intel: `Tuanbot-2026.5.2-mac-x64.dmg`
+- Linux arm64: `Tuanbot-2026.5.2-arm64.AppImage`
 
 Use the download button above to get the latest build.
 
