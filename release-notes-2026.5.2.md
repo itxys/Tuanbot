@@ -31,18 +31,24 @@
 - 直接聊天历史保留已修复
 - 多会话同时打开时，交互一致性更好
 
-#### 3. 打包运行时接线刷新
+#### 3. 会议室启动崩溃修复
+
+- 会议室会话数据在启动和恢复阶段会先做安全归一化
+- 即使旧存档里的会话结构异常，也不会再因为 `sessions` 不是数组而直接红屏
+- 会议室打开后可以继续正常进入、切换和保存会话
+
+#### 4. 打包运行时接线刷新
 
 - 打包后的应用会更稳定地走随包发布的运行时路径
 - 工具命名和运行时边界做了对齐，提升发布可靠性
 - 这能让安装包更接近预期的发布路径，而不是依赖宿主环境
 
-#### 4. 桌面壳层继续优化
+#### 5. 桌面壳层继续优化
 
 - App 级 props builder 和 UI bridge props 继续拆分整理
 - 用户可见行为保持一致，但壳层和控制层边界更清晰，便于后续发布工作
 
-#### 5. 用户可见提醒更明确
+#### 6. 用户可见提醒更明确
 
 - 未读回复提示在会话列表里更醒目
 - 机器人头顶可以直接显示未读面包屑，方便注意新回复
@@ -87,18 +93,24 @@
 - Direct chat history preservation has been fixed
 - Multi-session behavior is more consistent when several conversations stay open at once
 
-#### 3. Packaged runtime wiring refreshed
+#### 3. Meeting room startup crash fixed
+
+- Meeting room session data is normalized during startup and restore
+- Legacy save data with a malformed `sessions` field no longer throws a red-screen crash
+- The meeting room can open, switch sessions, and save changes normally again
+
+#### 4. Packaged runtime wiring refreshed
 
 - Packaged builds now follow the shipped runtime path more consistently
 - Tool naming and runtime boundaries were aligned for release reliability
 - This keeps packaged builds closer to the intended release path instead of relying on host tooling
 
-#### 4. Desktop shell refinements
+#### 5. Desktop shell refinements
 
 - App-level props builders and UI bridge props were further extracted
 - The user-facing behavior stays the same, but the shell and controller boundaries are cleaner for future release work
 
-#### 5. More visible user-facing attention cues
+#### 6. More visible user-facing attention cues
 
 - Unread reply indicators are now more visible in the session list
 - Robot heads can surface a clear unread breadcrumb so new replies are easier to notice
