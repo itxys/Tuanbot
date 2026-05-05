@@ -42,7 +42,7 @@
 - Chat, settings, inventory, and key surfaces now follow a unified localization layer.
 - Release assets, versioning, and README copy are aligned so downloads are easier to understand.
 
-> Hotfix note: the macOS arm64 package for `2026.5.5` was reissued on `2026-05-05` to correct packaged data-source precedence. The Windows package was already correct.
+> Hotfix note: the macOS arm64 package for `2026.5.5` was reissued on `2026-05-05` to correct packaged data-source precedence and custom image resolution. The Windows package was already correct.
 
 ### Download assets
 
