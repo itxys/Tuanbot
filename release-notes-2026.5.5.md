@@ -35,6 +35,12 @@
 - macOS Apple Silicon / Intel 分开提供，方便对应芯片下载
 - 自动更新元数据继续保持完整，方便应用内升级
 
+#### 5. macOS arm64 包已重新发布
+
+- 这次重发修正了打包后的数据源优先级问题
+- macOS arm64 安装包现在会正确读取应有的商店数据
+- Windows 包保持不变
+
 ### 下载
 
 - Windows x64：`tuanbot_win_2026.5.5.exe`
