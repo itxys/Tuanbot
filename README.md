@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <b>Desktop Pet + AI Assistant</b><br/>
-  <sub>One version line, cross-platform installers, and a smoother release experience.</sub>
+  <b>A playful desktop pet with Agent capabilities</b><br/>
+  <sub>One-click installers, built-in Skills, native IM workflows, and a smoother release experience.</sub>
 </p>
 
 <p align="center">
@@ -21,14 +21,14 @@
 
 <table>
   <tr>
-    <td><strong>Version</strong><br/><code>2026.5.5</code></td>
-    <td><strong>Build date</strong><br/><code>2026-05-05</code></td>
+    <td><strong>Version</strong><br/><code>2026.5.6</code></td>
+    <td><strong>Build date</strong><br/><code>2026-05-06</code></td>
     <td><strong>Platforms</strong><br/>Windows x64 / macOS arm64 & x64</td>
   </tr>
 </table>
 
-- Release notes: [release-notes-2026.5.5.md](./release-notes-2026.5.5.md)
-- GitHub Releases: [https://github.com/itxys/Tuanbot/releases/tag/v2026.5.5](https://github.com/itxys/Tuanbot/releases/tag/v2026.5.5)
+- Release notes: [release-notes-2026.5.6.md](./release-notes-2026.5.6.md)
+- GitHub Releases: [https://github.com/itxys/Tuanbot/releases/tag/v2026.5.6](https://github.com/itxys/Tuanbot/releases/tag/v2026.5.6)
 
 <p align="center">
   <a href="https://github.com/itxys/Tuanbot/releases/latest/download/tuanbot_win_latest.exe">
@@ -36,29 +36,30 @@
   </a>
 </p>
 
-### What makes this release better
+### What makes Tuanbot worth trying
 
-- Built-in skills are available out of the box.
-- Chat, settings, inventory, and key surfaces now follow a unified localization layer.
-- Release assets, versioning, and README copy are aligned so downloads are easier to understand.
-
-> Hotfix note: the macOS arm64 package for `2026.5.5` was reissued on `2026-05-05` to correct packaged data-source precedence and custom image resolution. The Windows package was already correct.
+- Tuanbot is a desktop pet with agent capabilities: it can chat, follow workflows, and act on your commands.
+- Built-in Skills are available out of the box, so users can start playing immediately after installation.
+- Native IM tools can still be used after login, keeping everyday messaging and agent workflows in one place.
+- Chat, settings, inventory, and other core surfaces use a unified localization layer.
+- One-click installers and aligned release assets make download and installation simple.
+- Release assets, versioning, and README copy are kept on the same version line.
 
 ### Download assets
 
 | Platform | Asset |
 | --- | --- |
-| Windows x64 | `tuanbot_win_2026.5.5.exe` |
+| Windows x64 | `tuanbot_win_2026.5.6.exe` |
 | Windows direct latest link | `tuanbot_win_latest.exe` |
-| macOS Apple Silicon | `Tuanbot-2026.5.5-mac-arm64.dmg` |
-| macOS Intel | `Tuanbot-2026.5.5-mac-x64.dmg` |
+| macOS Apple Silicon | `Tuanbot-2026.5.6-mac-arm64.dmg` |
+| macOS Intel | `Tuanbot-2026.5.6-mac-x64.dmg` |
 
 ### Auto-update metadata
 
 | Platform | Metadata |
 | --- | --- |
-| Windows | `latest.yml`, `tuanbot_win_2026.5.5.exe.blockmap` |
-| macOS | `latest-mac.yml`, `Tuanbot-2026.5.5-mac-arm64.dmg.blockmap`, `Tuanbot-2026.5.5-mac-x64.dmg.blockmap` |
+| Windows | `latest.yml`, `tuanbot_win_2026.5.6.exe.blockmap` |
+| macOS | `latest-mac.yml`, `Tuanbot-2026.5.6-mac-arm64.dmg.blockmap`, `Tuanbot-2026.5.6-mac-x64.dmg.blockmap` |
 
 ---
 
@@ -67,20 +68,29 @@
 ### 这是什么仓库？
 这是 **Tuanbot 的发行版仓库**，用于存放安装包与自动更新所需文件（例如 `latest.yml`、`.blockmap`）。
 
+Tuanbot 是一个 **具有 Agent 能力的桌宠**。它把聊天、技能、MCP 工具、界面装扮、任务协作和原生 IM 工具接入放在同一个桌面体验里，强调的是：
+
+- 好玩，打开就能用
+- 安装简单，一键安装即可
+- 能聊天，也能执行任务
+- 需要时还能接入原生 IM 工具，保持日常使用习惯
+
 - Releases：`https://github.com/itxys/Tuanbot/releases`
 - 反馈问题：`https://github.com/itxys/Tuanbot/issues`
 
 ### ✅ 当前版本
 
-- 版本：`2026.5.5`
-- 构建日期：`2026-05-05`
+- 版本：`2026.5.6`
+- 构建日期：`2026-05-06`
 - 覆盖平台：Windows x64、macOS x64/arm64
 
 ### ✨ 这次更新的重点
 
+- Tuanbot 作为桌宠更加适合日常玩耍和轻量协作
 - 内置 Skills 开箱即用，无需用户手动安装
 - 聊天、设置、背包等核心界面已接入统一多语言层
-- 默认语言会跟随系统语言，用户也可以手动切换
+- 默认语言会跟随系统语言自动选择，用户也可以手动切换
+- 需要时可以继续使用原生 IM 工具，兼顾消息沟通与 Agent 流程
 - 发行版 README、release notes 和安装包命名已统一到同一版本号
 
 ### ✅ 下载安装
@@ -88,9 +98,9 @@
 当前提供 Windows、macOS 安装包：
 
 - Windows（稳定直链）：`tuanbot_win_latest.exe`
-- Windows（版本化安装包）：`tuanbot_win_2026.5.5.exe`
-- macOS Apple Silicon：`Tuanbot-2026.5.5-mac-arm64.dmg`
-- macOS Intel：`Tuanbot-2026.5.5-mac-x64.dmg`
+- Windows（版本化安装包）：`tuanbot_win_2026.5.6.exe`
+- macOS Apple Silicon：`Tuanbot-2026.5.6-mac-arm64.dmg`
+- macOS Intel：`Tuanbot-2026.5.6-mac-x64.dmg`
 
 点击页面上方按钮即可下载最新版本。
 
@@ -125,15 +135,17 @@ This is the **release-only repository** for Tuanbot. It hosts installers and aut
 
 ### ✅ Current release
 
-- Version: `2026.5.5`
-- Build date: `2026-05-05`
+- Version: `2026.5.6`
+- Build date: `2026-05-06`
 - Platforms: Windows x64, macOS x64/arm64
 
-### ✨ What changed in this release
+### ✨ What makes this release worth trying
 
-- Built-in Skills now work out of the box with no manual installation.
-- Chat, settings, inventory, and core surfaces now use the same localization layer.
+- Tuanbot is a desktop pet with agent capabilities: it can chat, follow workflows, and act on your commands.
+- Built-in Skills work out of the box with no manual installation.
+- Chat, settings, inventory, and core surfaces use the same localization layer.
 - Default language follows the user's system locale, while manual switching remains available.
+- Native IM tools can still be used after login, keeping messaging and agent flows in one place.
 - Release notes, README, and package naming are aligned to the same version line.
 
 ### ✅ Download & Install
@@ -141,9 +153,9 @@ This is the **release-only repository** for Tuanbot. It hosts installers and aut
 Windows and macOS installers are available:
 
 - Windows (stable direct link): `tuanbot_win_latest.exe`
-- Windows (versioned installer): `tuanbot_win_2026.5.5.exe`
-- macOS Apple Silicon: `Tuanbot-2026.5.5-mac-arm64.dmg`
-- macOS Intel: `Tuanbot-2026.5.5-mac-x64.dmg`
+- Windows (versioned installer): `tuanbot_win_2026.5.6.exe`
+- macOS Apple Silicon: `Tuanbot-2026.5.6-mac-arm64.dmg`
+- macOS Intel: `Tuanbot-2026.5.6-mac-x64.dmg`
 
 Use the download button above to get the latest build.
 
