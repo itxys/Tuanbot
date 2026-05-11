@@ -21,14 +21,14 @@
 
 <table>
   <tr>
-    <td><strong>Version</strong><br/><code>2026.5.6</code></td>
-    <td><strong>Build date</strong><br/><code>2026-05-06</code></td>
+    <td><strong>Version</strong><br/><code>2026.5.11</code></td>
+    <td><strong>Build date</strong><br/><code>2026-05-11</code></td>
     <td><strong>Platforms</strong><br/>Windows x64 / macOS arm64 & x64</td>
   </tr>
 </table>
 
-- Release notes: [release-notes-2026.5.6.md](./release-notes-2026.5.6.md)
-- GitHub Releases: [https://github.com/itxys/Tuanbot/releases/tag/v2026.5.6](https://github.com/itxys/Tuanbot/releases/tag/v2026.5.6)
+- Release notes: [release-notes-2026.5.11.md](./release-notes-2026.5.11.md)
+- GitHub Releases: [https://github.com/itxys/Tuanbot/releases/tag/v2026.5.11](https://github.com/itxys/Tuanbot/releases/tag/v2026.5.11)
 
 <p align="center">
   <a href="https://github.com/itxys/Tuanbot/releases/latest/download/tuanbot_win_latest.exe">
@@ -49,17 +49,17 @@
 
 | Platform | Asset |
 | --- | --- |
-| Windows x64 | `tuanbot_win_2026.5.6.exe` |
+| Windows x64 | `tuanbot_win_2026.5.11.exe` |
 | Windows direct latest link | `tuanbot_win_latest.exe` |
-| macOS Apple Silicon | `Tuanbot-2026.5.6-mac-arm64.dmg` |
-| macOS Intel | `Tuanbot-2026.5.6-mac-x64.dmg` |
+| macOS Apple Silicon | `Tuanbot-2026.5.11-mac-arm64.dmg` |
+| macOS Intel | `Tuanbot-2026.5.11-mac-x64.dmg` |
 
 ### Auto-update metadata
 
 | Platform | Metadata |
 | --- | --- |
-| Windows | `latest.yml`, `tuanbot_win_2026.5.6.exe.blockmap` |
-| macOS | `latest-mac.yml`, `Tuanbot-2026.5.6-mac-arm64.dmg.blockmap`, `Tuanbot-2026.5.6-mac-x64.dmg.blockmap` |
+| Windows | `latest.yml`, `tuanbot_win_2026.5.11.exe.blockmap` |
+| macOS | `latest-mac.yml`, `Tuanbot-2026.5.11-mac-arm64.dmg.blockmap`, `Tuanbot-2026.5.11-mac-x64.dmg.blockmap` |
 
 ---
 
@@ -80,8 +80,8 @@ Tuanbot 是一个 **具有 Agent 能力的桌宠**。它把聊天、技能、MCP
 
 ### ✅ 当前版本
 
-- 版本：`2026.5.6`
-- 构建日期：`2026-05-06`
+- 版本：`2026.5.11`
+- 构建日期：`2026-05-11`
 - 覆盖平台：Windows x64、macOS x64/arm64
 
 ### ✨ 这次更新的重点
@@ -98,9 +98,9 @@ Tuanbot 是一个 **具有 Agent 能力的桌宠**。它把聊天、技能、MCP
 当前提供 Windows、macOS 安装包：
 
 - Windows（稳定直链）：`tuanbot_win_latest.exe`
-- Windows（版本化安装包）：`tuanbot_win_2026.5.6.exe`
-- macOS Apple Silicon：`Tuanbot-2026.5.6-mac-arm64.dmg`
-- macOS Intel：`Tuanbot-2026.5.6-mac-x64.dmg`
+- Windows（版本化安装包）：`tuanbot_win_2026.5.11.exe`
+- macOS Apple Silicon：`Tuanbot-2026.5.11-mac-arm64.dmg`
+- macOS Intel：`Tuanbot-2026.5.11-mac-x64.dmg`
 
 点击页面上方按钮即可下载最新版本。
 
@@ -135,8 +135,8 @@ This is the **release-only repository** for Tuanbot. It hosts installers and aut
 
 ### ✅ Current release
 
-- Version: `2026.5.6`
-- Build date: `2026-05-06`
+- Version: `2026.5.11`
+- Build date: `2026-05-11`
 - Platforms: Windows x64, macOS x64/arm64
 
 ### ✨ What makes this release worth trying
@@ -153,9 +153,9 @@ This is the **release-only repository** for Tuanbot. It hosts installers and aut
 Windows and macOS installers are available:
 
 - Windows (stable direct link): `tuanbot_win_latest.exe`
-- Windows (versioned installer): `tuanbot_win_2026.5.6.exe`
-- macOS Apple Silicon: `Tuanbot-2026.5.6-mac-arm64.dmg`
-- macOS Intel: `Tuanbot-2026.5.6-mac-x64.dmg`
+- Windows (versioned installer): `tuanbot_win_2026.5.11.exe`
+- macOS Apple Silicon: `Tuanbot-2026.5.11-mac-arm64.dmg`
+- macOS Intel: `Tuanbot-2026.5.11-mac-x64.dmg`
 
 Use the download button above to get the latest build.
 
